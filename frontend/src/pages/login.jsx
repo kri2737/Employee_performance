@@ -1,24 +1,53 @@
-import './Login.css'
+import './login.css'
 
 function Login() {
     return (
-        <div className="Login_Container">
-            <h1>Login</h1>
+        <div className="Login_Page">
 
-            <label>Email</label>
-            <input type="email" />
+            <div className="Login_left">
+                <h1>Welcome!</h1>
+                <p>Track. Review. Improve.</p>
+            </div>
 
-            <label>Password</label>
-            <input type="password" />
+            <div className="Login_right">
 
-            <label>Role</label>
-            <select>
-                <option value="Employee">Employee</option>
-                <option value="Manager">Manager</option>
-                <option value="Senior Authority">Senior Authority</option>
-            </select>
+                <div className="Login_Box">
 
-            <button>Login</button>
+                    <h1>Login</h1>
+
+                   
+                    <input
+                        type="text"
+                        placeholder="Enter Email"
+                        autoComplete="off"
+                    />
+
+                    
+                    <input
+                        type="password"
+                        placeholder="Enter password"
+                        autoComplete="new-password"
+                    />
+
+                    <label>Role</label>
+                    <select>
+                        <option value="Employee">Employee</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Senior Authority">
+                            Senior Authority
+                        </option>
+                    </select>
+
+                    <button>Login</button>
+
+                    <div className="Forgot_Password">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     )
 }

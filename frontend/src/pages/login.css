@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #f2f4f7;
+    font-family: Arial, sans-serif;
+}
+
+.Login_Page {
+    width: 90%;
+    max-width: 1100px;
+    height: 650px;
+
+    margin: 50px auto;
+
+    display: flex;
+
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* LEFT SIDE */
+
+.Login_left {
+    width: 50%;
+
+    background-image: url('../assets/login_page.png');
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* RIGHT SIDE */
+
+.Login_right {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f8fafc;
+}
+
+
+/* LOGIN BOX */
+
+.Login_Box {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.Login_Box h1 {
+    font-size: 45px;
+    color: #111827;
+    text-align: center;
+}
+
+
+.Login_Box input,
+.Login_Box select {
+    width: 100%;
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+
+    background-color: white;
+    color: #111827;
+}
+
+
+.Login_Box input::placeholder {
+    color: #9ca3af;
+}
+
+
+.Login_Box button {
+    width: 100%;
+    padding: 12px;
+
+    margin-top: 10px;
+
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+.Forgot_Password {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.Forgot_Password a {
+    color: #2563eb;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.Forgot_Password a:hover {
+    text-decoration: underline;
+}
